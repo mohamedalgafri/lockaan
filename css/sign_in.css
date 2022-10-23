@@ -1,0 +1,166 @@
+
+
+.allsignin{
+    display: flex;
+    justify-content: space-between;
+}
+.right_side{
+    width: auto;
+    position: absolute;
+    right: 0;
+}
+
+.right_side img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: left
+}
+.left_side{
+    width: 50% ;
+}
+
+.textinput a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.titsing{
+    text-align: center;
+    margin-top: 30px;
+}
+.titsing a{
+    color: #F57A38;
+    text-decoration: none;
+}
+
+.textinput{
+    margin-top: 130px;
+    margin-left: 100px;
+}
+@media (min-width:1600px) {
+    .textinput{
+        margin-left: 250px;
+    }
+}
+
+.formm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formm input{
+    width: 400px;
+    background-color: #F5F8FA;
+    padding: 13px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.btn_sign {
+    background-color: #F57A38;
+    color: #fff;
+    padding: 12px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+}
+
+.allbtnor{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orsotial{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.orsotial img{
+    width: 30px;
+}
+
+.lang{
+    display: flex;
+    position: absolute;
+    bottom: 70px;
+    gap: 5px;
+}
+.lang .poplang{
+    width: 30px;
+    height: 30px;
+    background-color: #F57A38;
+    border-radius: 50%;
+}
+.lang select{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn_sign a{
+    color: #fff;
+}
+
+/* //////////////////////////////// */
+
+
+.inputname{
+    display: flex;
+    gap: 14px;
+}
+.inputname input{
+    width: 194px;
+}
+
+@media (max-width:1600px){
+    .right_side img{
+        width: 100%;
+        position:absolute;
+        right: 0;
+    }
+    .right_side{
+        width: 50%;
+    }
+}
+@media (max-width:1000px){
+    .right_side{
+        width: 40%;
+    } 
+}
+@media (max-width:900px){
+    .right_side{
+        display: none;
+    } 
+    .left_side{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:515px){
+    .formm input{
+        width: 100%;
+    }
+    .textinput{
+        margin: 130px 30px 20px 30px;
+    }
+    .allbtnor{
+        width: 100%;
+        margin-right: 30px;
+    }
+    .inputname{
+        flex-direction: column;
+    }
+    .inputname input{
+        width: 100%;
+    }
+    .textsignup{
+        margin-top: 70px !important;
+    }
+}

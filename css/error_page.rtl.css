@@ -1,0 +1,58 @@
+
+
+
+.imgerror{
+    width: 45%;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.body_error img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.imgerror h2{
+    color: #f57a38;
+}
+.imgerror button{
+    background-color: #f57a38;
+    border: none;
+    padding: 13px 25px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+@media (max-width:975px) {
+    .imgerror{
+        width: 450px;
+    }
+}
+@media (max-width:540px) {
+    .imgerror{
+        width: 350px;
+    }
+    .imgerror h2{
+        font-size: 20px;
+    }
+    .imgerror p{
+        font-size: 13px;
+    }
+    .imgerror button{
+        padding: 10px 20px;
+    }
+}
+@media (max-width:410px) {
+    .imgerror{
+        width: 310px;
+    }
+    .imgerror h2{
+        font-size: 20px;
+    }
+    .imgerror p{
+        font-size: 13px;
+    }
+    .imgerror button{
+        padding: 10px 20px;
+    }
+}

@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand logo me-5" href="index.html">
+          <img src="imges/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto ms-auto mb-2 ms-5 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-itemm">
+              <a class="nav-link active" href="shop.html">Shop</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about_us.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <div
+            class="search_navv animate__animated animate__headShake animate__fadeInDown"
+          >
+            <div class="serachall">
+              <div class="leftserch">
+                <i class="bx bx-search"></i>
+                <input type="text" placeholder="Office" />
+              </div>
+              <div class="rightsersh">
+                <i class="bx bx-x"></i>
+                <p>close</p>
+              </div>
+            </div>
+            <hr />
+          </div>
+
+          <div class="navicon">
+            <li class="nav-itemi serchh">
+              <a class="nav-link" href="#"><i class="bx bx-search"></i></a>
+            </li>
+            <li class="nav-itemi">
+              <a href="your_shopping_bag.html"><i class="bx bx-cart"></i></a>
+            </li>
+            <li class="nav-itemi">
+              <a class="nav-link" href="cart.html"
+                ><i class="bx bx-user"></i
+              ></a>
+            </li>
+            <li class="nav-itemi">
+              <a class="nav-link" href="#"><i class="bx bx-world"></i></a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="container">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Shop</li>
+      </ol>
+    </nav>
+
+    <section class="title_shop container">
+      <h1>Shop Categories</h1>
+
+      <select class="selectShop">
+        <option selected>Latest</option>
+        <option>Oldest</option>
+      </select>
+
+      <div
+        class="btn_fillter"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+      >
+        <i class="bx bx-filter"></i>
+      </div>
+    </section>
+
+    <section class="body_shop container">
+      <div class="leftside">
+        <form action="">
+          <h5>Keywords</h5>
+          <input class="mb-3 mt-1 keywords" type="text" />
+
+          <h4>Categories</h4>
+          <div class="allformch">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault1"
+              />
+              <label class="form-check-label" for="flexCheckDefault1">
+                Adobe
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault2"
+              />
+              <label class="form-check-label" for="flexCheckDefault2">
+                design & architecture
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault3"
+              />
+              <label class="form-check-label" for="flexCheckDefault3">
+                design software
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault4"
+              />
+              <label class="form-check-label" for="flexCheckDefault4">
+                engineering simulation
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault5"
+              />
+              <label class="form-check-label" for="flexCheckDefault5">
+                kaspersky
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault6"
+              />
+              <label class="form-check-label" for="flexCheckDefault6">
+                Microsoft Office
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault7"
+              />
+              <label class="form-check-label" for="flexCheckDefault7">
+                Microsoft Windows
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault8"
+              />
+              <label class="form-check-label" for="flexCheckDefault8">
+                Uncategorized
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="rightside">
+        <div class="allcardwindo">
+          <div class="cardwindo">
+            <a href="show_details.html">
+              <div class="imgwind">
+                <div class="title_imgcard">
+                  <p>Microsoft</p>
+                  <p>1 PC</p>
+                </div>
+                <img src="imges/w1.png" alt="" />
+                <div class="downimgtext c3_color">
+                  <p>Lifetime License</p>
+                </div>
+                <div class="iconcardww">
+                  <div class="popimgww">
+                    <i class="bx bx-heart" style="color: #ffffff"></i>
+                  </div>
+                  <a
+                    href="#"
+                    type="button"
+                    class=""
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <div class="popimgww">
+                      <img
+                        class="eyeicon"
+                        src="imges/visibility_FILL0_wght300_GRAD0_opsz24.svg"
+                        alt=""
+                        style="width: 20px"
+                      />
+                    </div>
+                  </a>
+                  <div class="popimgww">
+                    <a
+                      class=""
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasRight"
+                      aria-controls="offcanvasRight"
+                      class="nav-link"
+                      href="#"
+                      ><i class="bx bx-cart" style="color: #ffffff"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <p>Windows 11 Pro – Lifetime License</p>
+            <div class="viewD">
+              <a href="show_details.html"><button>VIEW DETAILS</button></a>
+              <div class="moneey">
+                <h5>$57.00</h5>
+                <p>$199.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardwindo">
+            <a href="show_details.html">
+              <div class="imgwind">
+                <div class="title_imgcard">
+                  <p>Microsoft</p>
+                  <p>1 PC</p>
+                </div>
+                <img src="imges/w2.png" alt="" />
+                <div class="downimgtext c3_color">
+                  <p>Lifetime License</p>
+                </div>
+                <div class="iconcardww">
+                  <div class="popimgww">
+                    <i class="bx bx-heart" style="color: #ffffff"></i>
+                  </div>
+                  <a
+                    href="#"
+                    type="button"
+                    class=""
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <div class="popimgww">
+                      <img
+                        class="eyeicon"
+                        src="imges/visibility_FILL0_wght300_GRAD0_opsz24.svg"
+                        alt=""
+                        style="width: 20px"
+                      />
+                    </div>
+                  </a>
+                  <div class="popimgww">
+                    <a
+                      class=""
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasRight"
+                      aria-controls="offcanvasRight"
+                      class="nav-link"
+                      href="#"
+                      ><i class="bx bx-cart" style="color: #ffffff"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <p>Windows 11 Pro – Lifetime License</p>
+            <div class="viewD">
+              <a href="show_details.html"><button>VIEW DETAILS</button></a>
+              <div class="moneey">
+                <h5>$57.00</h5>
+                <p>$199.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardwindo">
+            <a href="show_details.html">
+              <div class="imgwind">
+                <div class="title_imgcard">
+                  <p>Microsoft</p>
+                  <p>1 PC</p>
+                </div>
+                <img src="imges/w3.png" alt="" />
+                <div class="downimgtext c3_color">
+                  <p>Lifetime License</p>
+                </div>
+                <div class="iconcardww">
+                  <div class="popimgww">
+                    <i class="bx bx-heart" style="color: #ffffff"></i>
+                  </div>
+                  <a
+                    href="#"
+                    type="button"
+                    class=""
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <div class="popimgww">
+                      <img
+                        class="eyeicon"
+                        src="imges/visibility_FILL0_wght300_GRAD0_opsz24.svg"
+                        alt=""
+                        style="width: 20px"
+                      />
+                    </div>
+                  </a>
+                  <div class="popimgww">
+                    <a
+                      class=""
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasRight"
+                      aria-controls="offcanvasRight"
+                      class="nav-link"
+                      href="#"
+                      ><i class="bx bx-cart" style="color: #ffffff"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <p>Windows 11 Pro – Lifetime License</p>
+            <div class="viewD">
+              <a href="show_details.html"><button>VIEW DETAILS</button></a>
+              <div class="moneey">
+                <h5>$57.00</h5>
+                <p>$199.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardwindo">
+            <a href="show_details.html">
+              <div class="imgwind">
+                <div class="title_imgcard">
+                  <p>Microsoft</p>
+                  <p>1 PC</p>
+                </div>
+                <img src="imges/w4.png" alt="" />
+                <div class="downimgtext c3_color">
+                  <p>Lifetime License</p>
+                </div>
+                <div class="iconcardww">
+                  <div class="popimgww">
+                    <i class="bx bx-heart" style="color: #ffffff"></i>
+                  </div>
+                  <a
+                    href="#"
+                    type="button"
+                    class=""
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <div class="popimgww">
+                      <img
+                        class="eyeicon"
+                        src="imges/visibility_FILL0_wght300_GRAD0_opsz24.svg"
+                        alt=""
+                        style="width: 20px"
+                      />
+                    </div>
+                  </a>
+                  <div class="popimgww">
+                    <a
+                      class=""
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasRight"
+                      aria-controls="offcanvasRight"
+                      class="nav-link"
+                      href="#"
+                      ><i class="bx bx-cart" style="color: #ffffff"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <p>Windows 11 Pro – Lifetime License</p>
+            <div class="viewD">
+              <a href="show_details.html"><button>VIEW DETAILS</button></a>
+              <div class="moneey">
+                <h5>$57.00</h5>
+                <p>$199.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardwindo">
+            <a href="show_details.html">
+              <div class="imgwind">
+                <div class="title_imgcard">
+                  <p>Microsoft</p>
+                  <p>1 PC</p>
+                </div>
+                <img src="imges/w1.png" alt="" />
+                <div class="downimgtext c3_color">
+                  <p>Lifetime License</p>
+                </div>
+                <div class="iconcardww">
+                  <div class="popimgww">
+                    <i class="bx bx-heart" style="color: #ffffff"></i>
+                  </div>
+                  <a
+                    href="#"
+                    type="button"
+                    class=""
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <div class="popimgww">
+                      <img
+                        class="eyeicon"
+                        src="imges/visibility_FILL0_wght300_GRAD0_opsz24.svg"
+                        alt=""
+                        style="width: 20px"
+                      />
+                    </div>
+                  </a>
+                  <div class="popimgww">
+                    <a
+                      class=""
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasRight"
+                      aria-controls="offcanvasRight"
+                      class="nav-link"
+                      href="#"
+                      ><i class="bx bx-cart" style="color: #ffffff"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <p>Windows 11 Pro – Lifetime License</p>
+            <div class="viewD">
+              <a href="show_details.html"><button>VIEW DETAILS</button></a>
+              <div class="moneey">
+                <h5>$57.00</h5>
+                <p>$199.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardwindo">
+            <a href="show_details.html">
+              <div class="imgwind">
+                <div class="title_imgcard">
+                  <p>Microsoft</p>
+                  <p>1 PC</p>
+                </div>
+                <img src="imges/w2.png" alt="" />
+                <div class="downimgtext c3_color">
+                  <p>Lifetime License</p>
+                </div>
+                <div class="iconcardww">
+                  <div class="popimgww">
+                    <i class="bx bx-heart" style="color: #ffffff"></i>
+                  </div>
+                  <a
+                    href="#"
+                    type="button"
+                    class=""
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <div class="popimgww">
+                      <img
+                        class="eyeicon"
+                        src="imges/visibility_FILL0_wght300_GRAD0_opsz24.svg"
+                        alt=""
+                        style="width: 20px"
+                      />
+                    </div>
+                  </a>
+                  <div class="popimgww">
+                    <a
+                      class=""
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasRight"
+                      aria-controls="offcanvasRight"
+                      class="nav-link"
+                      href="#"
+                      ><i class="bx bx-cart" style="color: #ffffff"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <p>Windows 11 Pro – Lifetime License</p>
+            <div class="viewD">
+              <a href="show_details.html"><button>VIEW DETAILS</button></a>
+              <div class="moneey">
+                <h5>$57.00</h5>
+                <p>$199.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <nav aria-label="Page navigation example" class="navigationn">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="allfooter">
+                <div class="sidefoo">
+                    <div>
+                        <img src="imges/Group 155.png" alt="">
+                        <p>
+                            We specialize in selling software downloads <br>
+                            by prominent manufacturers. <br>
+                            Our goal is to always provide our <br>
+                            customers with good value purchase <br>
+                            price and service
+                        </p>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="sidefoo">
+                    <div class="footsid">
+                        <div>
+                            <h5>Basic</h5>
+                            <a href="">
+                                <p>Shop</p>
+                            </a>
+                            <a href="">
+                                <p>About Us</p>
+                            </a>
+                            <a href="">
+                                <p>FAQ</p>
+                            </a>
+                        </div>
+    
+                        <div>
+                            <h5>Account</h5>
+                            <a href="">
+                                <p>My Account</p>
+                            </a>
+                            <a href="">
+                                <p>Login/Register </p>
+                            </a>
+                            <a href="">
+                                <p>Favorite</p>
+                            </a>
+                            <a href="">
+                                <p>Login out</p>
+                            </a>
+                            <a href="">
+                                <p>Delete Account </p>
+                            </a>
+    
+                        </div>
+                    </div>
+
+                    <div class="footsid">
+                        <div>
+                            <h5>product</h5>
+                            <a href="">
+                                <p>Microsoft Windows</p>
+                            </a>
+                            <a href="">
+                                <p>Microsoft Office </p>
+                            </a>
+                            <a href="">
+                                <p>Adobe</p>
+                            </a>
+
+    
+                        </div>
+    
+                        <div>
+                            <h5>Contact</h5>
+                            <a class="iconwindom" href=""> <img src="imges/Group 142100.svg" alt="">
+                                <p> Palestine - Gaza - Al-Rasheed <br/>
+                                    Street - next to the port</p>
+                            </a>
+                            <a class="iconwindom" href=""> <img src="imges/Group 142101.svg" alt="">
+                                <p>+972-56-733-5095 </p>
+                            </a>
+    
+                        </div>
+                    </div>
+
+
+ 
+                </div>
+
+
+            </div>
+
+            <hr>
+
+            <div class="mastercardfooter">
+                <p>Copyright © 2022 LocaKey | All Rights Reserved</p>
+                <div>
+                    <div class="iconfooter">
+                        <i class='bx bxs-envelope'></i>
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-instagram'></i>
+                        <i class='bx bxl-twitter'></i>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+          Shop Categories
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <hr />
+      <div class="offcanvas-body">
+        <div class="leftside filtdisply">
+          <form action="">
+            <div class="allkeyy">
+              <div class="leftsidkey">
+                <h5>Keywords</h5>
+                <input class="keywords" type="text" />
+              </div>
+              <div class="rightsidekey">
+                <select class="selectShop selectShop_d">
+                  <option selected>Latest</option>
+                  <option>Oldest</option>
+                </select>
+              </div>
+            </div>
+
+            <h4>Categories</h4>
+            <div class="allformcheck">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault1"
+                />
+                <label class="form-check-label" for="flexCheckDefault1">
+                  Adobe
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault2"
+                />
+                <label class="form-check-label" for="flexCheckDefault2">
+                  design & architecture
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault3"
+                />
+                <label class="form-check-label" for="flexCheckDefault3">
+                  design software
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault4"
+                />
+                <label class="form-check-label" for="flexCheckDefault4">
+                  engineering simulation
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault5"
+                />
+                <label class="form-check-label" for="flexCheckDefault5">
+                  kaspersky
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault6"
+                />
+                <label class="form-check-label" for="flexCheckDefault6">
+                  Microsoft Office
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault7"
+                />
+                <label class="form-check-label" for="flexCheckDefault7">
+                  Microsoft Windows
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault8"
+                />
+                <label class="form-check-label" for="flexCheckDefault8">
+                  Uncategorized
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    
+  <!-- Modal -->
+<div class="modal fade mm" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered lol">
+      <div class="modal-content mmmodal-content">
+        <section class="body_show container ">
+            <div class="left_side">
+    
+                <div class="allimgcardde">
+                    <div class="imgCardd">
+                        <img src="imges/wb1.png" alt="" id="productImg">
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="right_side">
+                <h4>Pack Adobe Editor 2021: 5 in 1 , Adobe premiere cc 2021 + </h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                </p>
+  
+                <hr>
+    
+                <div class="mone">
+                    <h4>$199.00</h4>
+                    <h3>$57.00</h3>
+                </div>
+    
+                <div class="addcard">
+                    <div class="contt">
+                        <span class="next" onclick="nextNum()"></span>
+                        <span class="prev" onclick="prveNum()"></span>
+                        <div id="box">
+                            <span id="boox">0</span>
+                        </div>
+                    </div>
+                    <button>
+                      <img src="imges/Icon-bag-16.svg" alt="" style="width: 20px; margin: -3px 3px 0 3px;">
+    
+                        ADD TO CART</button>
+    
+                    <div class="ha">
+                        <i class='bx bxs-heart'></i>
+                    </div>
+                </div>
+    
+                <hr>
+    
+                <div class="sotialIconn">
+                    <p>Share</p>
+                    <div class="d-flex gap-1">
+                        <div class="iiso">
+                            <i class='bx bxl-facebook' style='color:#ffffff'></i>
+                        </div>
+                        <div class="iiso">
+                            <i class='bx bxl-instagram' style='color:#ffffff'></i>
+                        </div>
+                        <div class="iiso">
+                            <i class='bx bxl-twitter' style='color:#ffffff'></i>
+                        </div>
+                        <div class="iiso">
+                            <i class='bx bxl-pinterest-alt' style='color:#ffffff'></i>
+                        </div>
+                        <div class="iiso">
+                            <i class='bx bxl-whatsapp' style='color:#ffffff'></i>
+                        </div>
+                    </div>
+    
+    
+                </div>
+    
+      </div>
+    </div>
+  </div>
+  </div>
+
+  
+  <script>
+    
+    var numbers = document.getElementById('boox');
+    var next = document.querySelector(".next");
+    var prev = document.querySelector(".prev");
+    var counter=0;
+
+    next.addEventListener("click",()=>{
+        counter++;
+        numbers.innerHTML=counter;
+    });
+    prev.addEventListener("click",()=>{
+        if(counter>0){
+            counter--;
+        }
+        numbers.innerHTML=counter;
+    });
+
+
+</script>
+
+
+    <script src="js/jquery library.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

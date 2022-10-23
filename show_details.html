@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shop Details</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand logo me-5" href="index.html">
+                <img src="imges/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-auto mb-2 ms-5 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-itemm">
+                        <a class="nav-link active" href="shop.html">Shop</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="about_us.html">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+                <div class="search_navv animate__animated animate__headShake animate__fadeInDown ">
+                    <div class="serachall">
+                        <div class="leftserch">
+                            <i class='bx bx-search'></i>
+                            <input type="text" placeholder="Office">
+                        </div>
+                        <div class="rightsersh">
+                            <i class='bx bx-x'></i>
+                            <p>close</p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="navicon">
+                    <li class="nav-itemi serchh">
+                        <a class="nav-link" href="#"><i class='bx bx-search '></i></a>
+                    </li>
+                    <li class="nav-itemi">
+                        <a  href="your_shopping_bag.html"><i class='bx bx-cart'></i></a>
+                    </li>
+                    <li class="nav-itemi">
+                        <a  class="nav-link" href="cart.html"><i class='bx bx-user'></i></a>
+                    </li>
+                    <li class="nav-itemi ">
+                        <a class="nav-link" href="#"><i class='bx bx-world'></i></a>
+                    </li>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <nav aria-label="breadcrumb" class="container">
+        <ol class="breadcrumb ">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"> Shop</li>
+        </ol>
+    </nav>
+
+
+    <section class="title_shop container">
+        <h1>Shop Categories</h1>
+    </section>
+
+    <section class="body_show container ">
+        <div class="left_side">
+
+            <div class="allimgcardde">
+                <div class="cardwindo carddetils">
+                    <a href="show_details.html">
+                        <div class="imgwind">
+                            <div class="title_imgcard">
+                                <p>Microsoft</p>
+                                <p>1 PC</p>
+                            </div>
+                            <img src="imges/w1.png" alt="">
+                            <div class="downimgtext c1_color">
+                                <p>Lifetime License</p>
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="right_side">
+            <h4>Pack Adobe Editor 2021: 5 in 1 , Adobe premiere cc 2021 + </h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                an unknown printer took a galley of type and scrambled it to make a type specimen </p>
+
+
+            <hr>
+
+                <div class="selectdetals"> 
+                    <div class="selectnumm">
+                        <p>Number Of Devices</p>
+                        <select name="" id="">
+                            <option value=""> select </option>
+                        </select>
+                    </div>
+
+                    <div class="selectnumm">
+                        <p>Key Duration</p>
+                        <select name="" id="">
+                            <option value=""> select </option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+
+            <hr>
+
+            <div class="mone">
+                <h4>$199.00</h4>
+                <h3>$57.00</h3>
+            </div>
+
+            <div class="addcard">
+                <div class="contt">
+                    <span class="next" onclick="nextNum()"></span>
+                    <span class="prev" onclick="prveNum()"></span>
+                    <div id="box">
+                        <span id="boox">0</span>
+                    </div>
+                </div>
+                <button>
+                    <svg id="Icon_bag-16" data-name="Icon/bag-16" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" width="19.703" height="19.867"
+                        viewBox="0 0 19.703 19.867">
+                        <defs>
+                            <clipPath id="clip-path">
+                                <rect id="Rectangle_12" data-name="Rectangle 12" width="19.703" height="19.867"
+                                    fill="#fff" />
+                            </clipPath>
+                        </defs>
+                        <rect id="Box" width="18" height="18" transform="translate(0.852 0.933)" fill="none" />
+                        <g id="Group_105" data-name="Group 105">
+                            <g id="Group_4" data-name="Group 4" clip-path="url(#clip-path)">
+                                <path id="Path_5" data-name="Path 5"
+                                    d="M73.9,275.384a2.055,2.055,0,1,0,2.05,2.06,2.062,2.062,0,0,0-2.05-2.06m0,2.74a.685.685,0,1,1,.684-.675.693.693,0,0,1-.684.675"
+                                    transform="translate(-67.73 -259.627)" fill="#fff" />
+                                <path id="Path_6" data-name="Path 6"
+                                    d="M217.548,275.384a2.055,2.055,0,1,0,2.063,2.047,2.062,2.062,0,0,0-2.063-2.047m0,2.74a.685.685,0,1,1,.695-.664.692.692,0,0,1-.695.664"
+                                    transform="translate(-203.17 -259.627)" fill="#fff" />
+                                <path id="Path_7" data-name="Path 7"
+                                    d="M19.682,4.546a1.378,1.378,0,0,0-1.436-1.12q-7.149,0-14.3.005c-.195,0-.248-.06-.265-.241C3.606,2.347,3.514,1.5,3.425.66A.687.687,0,0,0,2.7,0Q1.713,0,.729,0A.687.687,0,0,0,0,.678a.692.692,0,0,0,.735.692c.414,0,.828,0,1.242,0,.117,0,.154.031.167.151q.233,2.309.478,4.616c.221,2.1.449,4.2.668,6.295a2.055,2.055,0,0,0,2.15,1.956q2.622,0,5.243,0,2.643,0,5.286,0a2.043,2.043,0,0,0,2.059-1.647q.778-3.578,1.538-7.16a2.573,2.573,0,0,0,.116-1.033M17.849,7.064q-.572,2.672-1.148,5.342a.692.692,0,0,1-.753.609H5.421a.682.682,0,0,1-.76-.667Q4.381,9.714,4.1,7.077c-.074-.709-.142-1.418-.23-2.126-.019-.155.035-.157.152-.157.513,0,1.027,0,1.54,0H18.332c-.163.767-.321,1.518-.482,2.268"
+                                    transform="translate(0 0)" fill="#fff" />
+                                <path id="Path_8" data-name="Path 8"
+                                    d="M19.682,4.546a1.378,1.378,0,0,0-1.436-1.12q-7.149,0-14.3.005c-.195,0-.248-.06-.265-.241C3.606,2.347,3.514,1.5,3.425.66A.687.687,0,0,0,2.7,0Q1.713,0,.729,0A.687.687,0,0,0,0,.678a.692.692,0,0,0,.735.692c.414,0,.828,0,1.242,0,.117,0,.154.031.167.151q.233,2.309.478,4.616c.221,2.1.449,4.2.668,6.295a2.055,2.055,0,0,0,2.15,1.956q2.622,0,5.243,0,2.643,0,5.286,0a2.043,2.043,0,0,0,2.059-1.647q.778-3.578,1.538-7.16a2.573,2.573,0,0,0,.116-1.033M17.849,7.064q-.572,2.672-1.148,5.342a.692.692,0,0,1-.753.609H5.421a.682.682,0,0,1-.76-.667Q4.381,9.714,4.1,7.077c-.074-.709-.142-1.418-.23-2.126-.019-.155.035-.157.152-.157.513,0,1.027,0,1.54,0H18.332c-.163.767-.321,1.518-.482,2.268"
+                                    transform="translate(0 0)" fill="#fff" />
+                                <path id="Path_9" data-name="Path 9"
+                                    d="M73.9,275.384a2.055,2.055,0,1,0,2.05,2.06,2.062,2.062,0,0,0-2.05-2.06m0,2.74a.685.685,0,1,1,.684-.675.693.693,0,0,1-.684.675"
+                                    transform="translate(-67.73 -259.627)" fill="#fff" />
+                                <path id="Path_10" data-name="Path 10"
+                                    d="M217.548,275.384a2.055,2.055,0,1,0,2.063,2.047,2.062,2.062,0,0,0-2.063-2.047m0,2.74a.685.685,0,1,1,.695-.664.692.692,0,0,1-.695.664"
+                                    transform="translate(-203.17 -259.627)" fill="#fff" />
+                            </g>
+                        </g>
+                    </svg>
+
+                    ADD TO CART</button>
+
+                <div class="ha">
+                    <i class='bx bxs-heart'></i>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="sotialIconn">
+                <p>Share</p>
+                <div class="d-flex gap-1">
+                    <div class="iiso">
+                        <i class='bx bxl-facebook' style='color:#ffffff'></i>
+                    </div>
+                    <div class="iiso">
+                        <i class='bx bxl-instagram' style='color:#ffffff'></i>
+                    </div>
+                    <div class="iiso">
+                        <i class='bx bxl-twitter' style='color:#ffffff'></i>
+                    </div>
+                    <div class="iiso">
+                        <i class='bx bxl-pinterest-alt' style='color:#ffffff'></i>
+                    </div>
+                    <div class="iiso">
+                        <i class='bx bxl-whatsapp' style='color:#ffffff'></i>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="description container">
+        <h4>Description</h4>
+
+        <hr>
+
+        <p>Windows 11 is the next client operating system, and includes features that organizations should know. Windows
+            11 is built on the same foundation as Windows 10. If you use Windows 10, then Windows 11 is a natural
+            transition and update to what you know, and what you’re familiar with.</p>
+        <p>It offers innovations focused on enhancing end-user productivity, and is designed to support today’s hybrid
+            work environment.</p>
+        <p>Your investments in update and device management are carried forward. For example, many of the same apps and
+            tools can be used in Windows 11. Many of the same security settings and policies can be applied to Windows
+            11 devices, including PCs. You can use Windows Autopilot with a zero touch deployment to enroll your Windows
+            devices in Microsoft Endpoint Manager. You can also use newer features, such as Azure Virtual Desktop and
+            Windows 365 on your Windows 11 devices.</p>
+
+        <h4>Security and scanning</h4>
+
+        <p >The security and privacy features in Windows 11 are similar to Windows 10. Security for your devices starts
+            with the hardware, and includes OS security, application security, and user & identity security. There are
+            features available in the Windows OS to help in these areas. This section describes some of these features.
+        </p>
+        <p>The Windows Security app is built into the OS. This app is an easy-to-use interface, and combines commonly
+            used security features. For example, your get access to virus & threat protection, firewall & network
+            protection, account protection, and more. <br>
+            Security baselines includes security settings that already configured, and ready to be deployed to your
+            devices. If you don’t know where to start, or it’s too time consuming to go through all the settings, then
+            you should look at Security Baselines. <br>
+            Microsoft Defender Antivirus is built into Windows, and helps protect devices using next-generation
+            security. When used with Microsoft Defender for Endpoint, your organization gets strong endpoint protection,
+            and advanced endpoint protection & response. <br> If your devices are managed with Endpoint Manager, you can
+            create policies based on threat levels found in Microsoft Defender for Endpoint.
+            The Application Security features help prevent unwanted or malicious code from running, isolate untrusted
+            websites & untrusted Office files, protect against phishing or malware websites, and more. <br>
+            Windows Hello for Business helps protect users and identities. It replaces passwords, and uses a PIN or
+            biometric that stays locally on the device. Device manufacturers are including more secure hardware
+            features, such as IR cameras and TPM chips. These features are used with Windows Hello for Business to help
+            protect user identities on your organization devices.As an admin, going passwordless help secures user
+            identities. The Windows OS, Azure AD, and Endpoint Manager work together to remove passwords, create more
+            secure policies, and help enforce compliance.</p>
+
+        <h4>Easier access to new services, and services you already use</h4>
+
+        <p>Windows 365 is a desktop operating system that’s also a cloud service. From another internet-connected
+            device, including Android and macOS devices, you can run Windows 365, just like a virtual machine.
+            Microsoft Teams is included with the OS, and is automatically available on the taskbar. Users select the
+            chat icon, sign in with their personal Microsoft account, and start a call:On the Windows 11 taskbar, select
+            the camera chat icon to start a Microsoft Teams call.This version of Microsoft Teams is for personal
+            accounts. For organization accounts, such as user@contoso.com, you can deploy the Microsoft Teams app using
+            MDM policy, such as Endpoint Manager. For more information, see:Users can manage preinstalled apps using the
+            Settings app > Apps > Apps & Features. Admins can create a policy that pins apps, or removes the default
+            pinned apps from the Taskbar. <br>
+            Power Automate for desktop is included with the OS. Your users can create flows with this low-code app to
+            help them with everyday tasks. For example, users can create flows that save a message to OneNote, notify a
+            team when there’s a new Forms response, get notified when a file is added to SharePoint, and more.Users can
+            manage preinstalled apps using the Settings app > Apps > Apps & Features.</p>
+
+
+
+        <div class="text_desc_img">
+            <p>
+                Windows 365 is a desktop operating system that’s also a cloud service. From another internet-connected
+                device, including Android and macOS devices, you can run Windows 365, just like a virtual machine.
+                Microsoft Teams is included with the OS, and is automatically available on the taskbar. Users select the
+                chat icon, sign in with their personal Microsoft account, and start a call:On the Windows 11 taskbar,
+                select the camera chat icon to start a Microsoft Teams call.This version of Microsoft Teams is for
+                personal accounts. For organization accounts, such as user@contoso.com, you can deploy the Microsoft
+                Teams app using MDM policy, such as Endpoint Manager. For more information, see:Users can manage
+                preinstalled apps using the Settings app > Apps > Apps & Features. Admins can create a policy that pins
+                apps, or removes the default pinned apps from the Taskbar.
+                Power Automate for desktop is included with the OS. Your users can create flows with this low-code app
+                to help them with everyday tasks. For example.
+            </p>
+            <img src="imges/f1.png" alt="">
+        </div>
+
+        <div class="text_desc_img rr ">
+            <p>
+                Windows 365 is a desktop operating system that’s also a cloud service. From another internet-connected
+                device, including Android and macOS devices, you can run Windows 365, just like a virtual machine.
+                Microsoft Teams is included with the OS, and is automatically available on the taskbar. Users select the
+                chat icon, sign in with their personal Microsoft account, and start a call:On the Windows 11 taskbar,
+                select the camera chat icon to start a Microsoft Teams call.This version of Microsoft Teams is for
+                personal accounts. For organization accounts, such as user@contoso.com, you can deploy the Microsoft
+                Teams app using MDM policy, such as Endpoint Manager. For more information, see:Users can manage
+                preinstalled apps using the Settings app > Apps > Apps & Features. Admins can create a policy that pins
+                apps, or removes the default pinned apps from the Taskbar.
+                Power Automate for desktop is included with the OS.
+            </p>
+            <img src="imges/f2.png" alt="">
+        </div>
+
+        <p class="ppf">
+            Windows 365 is a desktop operating system that’s also a cloud service. From another internet-connected
+            device, including Android and macOS devices, you can run Windows 365, just like a virtual machine.
+            Microsoft Teams is included with the OS, and is automatically available on the taskbar. Users select the
+            chat icon, sign in with their personal Microsoft account, and start a call:On the Windows 11 taskbar, select
+            the camera chat icon to start a Microsoft Teams call.This version of Microsoft Teams is for personal
+            accounts. For organization accounts, such as user@contoso.com, you can deploy the Microsoft Teams app using
+            MDM policy, such as Endpoint Manager. For more information, see:Users can manage preinstalled apps using the
+            Settings app > Apps > Apps & Features. Admins can create a policy that pins apps, or removes the default
+            pinned apps from the Taskbar.
+            Power Automate for desktop is included with the OS. Your users can create flows with this low-code app to
+            help them with everyday tasks. For example, users can create flows that save a message to OneNote, notify a
+            team when there’s a new Forms response, get notified when a file is added to SharePoint, and more.Users can
+            manage preinstalled apps using the Settings app > Apps > Apps & Features.
+        </p>
+
+
+    </section>
+
+    <section class="similar_products container">
+        <div class="titlesimilar">
+            <h2>Similar products</h2>
+            <p><a href="shop.html">See More</a></p>
+        </div>
+        
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="cardwindo swiper-slide">
+                    <div class="imgwind">
+                        <div class="title_imgcard">
+                            <p>Microsoft</p>
+                            <p>1 PC</p>
+                        </div>
+                        <img src="imges/w1.png" alt="">
+                        <div class="downimgtext c1_color">
+                            <p>Lifetime License</p>
+                        </div>
+                    </div>
+
+                <p>Windows 11 Pro – Lifetime License</p>
+                <div class="viewD">
+                    <button>VIEW DETAILS</button>
+                    <div class="moneey ">
+                        <h5>$57.00</h5>
+                        <p>$199.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardwindo swiper-slide">
+                <div class="imgwind">
+                    <div class="title_imgcard">
+                        <p>Microsoft</p>
+                        <p>1 PC</p>
+                    </div>
+                    <img src="imges/w2.png" alt="">
+                    <div class="downimgtext c2_color">
+                        <p>Lifetime License</p>
+                    </div>
+                </div>
+
+            <p>Windows 11 Pro – Lifetime License</p>
+            <div class="viewD">
+                <button>VIEW DETAILS</button>
+                <div class="moneey ">
+                    <h5>$57.00</h5>
+                    <p>$199.00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cardwindo swiper-slide">
+            <div class="imgwind">
+                <div class="title_imgcard">
+                    <p>Microsoft</p>
+                    <p>1 PC</p>
+                </div>
+                <img src="imges/w3.png" alt="">
+                <div class="downimgtext c3_color">
+                    <p>Lifetime License</p>
+                </div>
+            </div>
+
+        <p>Windows 11 Pro – Lifetime License</p>
+        <div class="viewD">
+            <button>VIEW DETAILS</button>
+            <div class="moneey ">
+                <h5>$57.00</h5>
+                <p>$199.00</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cardwindo swiper-slide">
+        <div class="imgwind">
+            <div class="title_imgcard">
+                <p>Microsoft</p>
+                <p>1 PC</p>
+            </div>
+            <img src="imges/w4.png" alt="">
+            <div class="downimgtext c4_color">
+                <p>Lifetime License</p>
+            </div>
+        </div>
+
+    <p>Windows 11 Pro – Lifetime License</p>
+    <div class="viewD">
+        <button>VIEW DETAILS</button>
+        <div class="moneey ">
+            <h5>$57.00</h5>
+            <p>$199.00</p>
+        </div>
+    </div>
+</div>
+
+
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="allfooter">
+                <div class="sidefoo">
+                    <div>
+                        <img src="imges/Group 155.png" alt="">
+                        <p>
+                            We specialize in selling software downloads <br>
+                            by prominent manufacturers. <br>
+                            Our goal is to always provide our <br>
+                            customers with good value purchase <br>
+                            price and service
+                        </p>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="sidefoo">
+                    <div class="footsid">
+                        <div>
+                            <h5>Basic</h5>
+                            <a href="">
+                                <p>Shop</p>
+                            </a>
+                            <a href="">
+                                <p>About Us</p>
+                            </a>
+                            <a href="">
+                                <p>FAQ</p>
+                            </a>
+                        </div>
+    
+                        <div>
+                            <h5>Account</h5>
+                            <a href="">
+                                <p>My Account</p>
+                            </a>
+                            <a href="">
+                                <p>Login/Register </p>
+                            </a>
+                            <a href="">
+                                <p>Favorite</p>
+                            </a>
+                            <a href="">
+                                <p>Login out</p>
+                            </a>
+                            <a href="">
+                                <p>Delete Account </p>
+                            </a>
+    
+                        </div>
+                    </div>
+
+                    <div class="footsid">
+                        <div>
+                            <h5>product</h5>
+                            <a href="">
+                                <p>Microsoft Windows</p>
+                            </a>
+                            <a href="">
+                                <p>Microsoft Office </p>
+                            </a>
+                            <a href="">
+                                <p>Adobe</p>
+                            </a>
+
+    
+                        </div>
+    
+                        <div>
+                            <h5>Contact</h5>
+                            <a class="iconwindom" href=""> <img src="imges/Group 142100.svg" alt="">
+                                <p> Palestine - Gaza - Al-Rasheed <br/>
+                                    Street - next to the port</p>
+                            </a>
+                            <a class="iconwindom" href=""> <img src="imges/Group 142101.svg" alt="">
+                                <p>+972-56-733-5095 </p>
+                            </a>
+    
+                        </div>
+                    </div>
+
+
+ 
+                </div>
+
+
+            </div>
+
+            <hr>
+
+            <div class="mastercardfooter">
+                <p>Copyright © 2022 LocaKey | All Rights Reserved</p>
+                <div>
+                    <div class="iconfooter">
+                        <i class='bx bxs-envelope'></i>
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-instagram'></i>
+                        <i class='bx bxl-twitter'></i>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ----------js for product gallery---------- -->
+
+    <script>
+        var productImg = document.getElementById("productImg");
+        var smallImg = document.getElementsByClassName("small-img");
+        
+        var numbers = document.getElementById('boox');
+        var next = document.querySelector(".next");
+        var prev = document.querySelector(".prev");
+        var counter=0;
+
+        next.addEventListener("click",()=>{
+            counter++;
+            numbers.innerHTML=counter;
+        });
+        prev.addEventListener("click",()=>{
+            if(counter>0){
+                counter--;
+            }
+            numbers.innerHTML=counter;
+        });
+
+        smallImg[0].onclick = function () {
+            productImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function () {
+            productImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function () {
+            productImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function () {
+            productImg.src = smallImg[3].src;
+        }
+
+    </script>
+
+    <script src="js/jquery library.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

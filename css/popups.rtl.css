@@ -1,0 +1,135 @@
+
+body{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.bodypop{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F57A38;
+    padding-bottom: 30px;
+    border-radius: 120px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) ;
+}
+.imgpop{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -80px;
+}
+.bodypop img{
+    width: 100%;
+
+}
+
+.textpopimg{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}   
+.iitextco{
+    margin-top: -20px;
+}
+.textpopimg h1{
+    font-size: 60px;
+}
+.textpopimg p{
+    font-size: 18px;
+}
+.btnpop{
+    width: 40%;
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+@media (max-width:1050px) {
+    .bodypop{
+        width: 90%;
+    }
+}
+@media (max-width:800px) {
+    .bodypop{
+        width: 90%;
+    }
+    .imgpop{
+        width: 350px;
+    }
+
+}
+@media (max-width:650px) {
+    .bodypop{
+        border-radius: 80px;
+    }
+    .imgpop{
+        width: 300px;
+    }
+    .textpopimg h1{
+        font-size: 50px;
+    }
+    .btnpop{
+        font-size: 18px;
+    }
+}
+@media (max-width:500px) {
+
+    .imgpop{
+        width: 250px;
+    }
+    .textpopimg p{
+        font-size: 16px;
+    }
+    .textpopimg h1{
+        font-size: 40px;
+    }
+    .btnpop{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .imgpop{
+        width: 320px;
+    }
+}
+
+/* //////////////////ii2/////////////////////// */
+
+.ii2{
+    width: 350px;
+}
+@media (max-width:650px) {
+    .bodypop{
+        border-radius: 80px;
+    }
+    .ii2{
+        width: 300px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .ii2{
+        width: 200px;
+    }
+    .textpopimg p{
+        font-size: 16px;
+    }
+}
+
+/* ///////////////////ii3/////////////////// */
+
+.ii3{
+   transform: translateX(-25px);
+}
+
